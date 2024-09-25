@@ -21,11 +21,12 @@ Feel-flux is a **Sentiment Analysis** program written in **C++**. It reads posit
    - **MSVC** for Windows/macOS
 
 3. **Create or add positive and negative word files:**
-   The program requires text files containing positive and negative words.
+   The program requires text files containing positive, negative words, neutral words and stop_list.txt.
 
    - `positive words.txt`
    - `negative words.txt`
    - `neutral words.txt`
+   -  `stop_list.txt`
 
 ## Compilation
 
@@ -80,7 +81,8 @@ Sentiment Label: Positive
 ├── feel_flux.cpp         # Main C++ source code
 ├── positive words.txt    # File containing positive words
 ├── negative words.txt    # File containing negative words
-├── neutral words.txt  
+├── neutral words.txt     # File containing neutral words
+├── stop_list.txt         # File containing stop words
 └── README.md             # Project README file
 ```
 
