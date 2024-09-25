@@ -1,5 +1,86 @@
 # Feel-flux
-This project is basically a sentiment analysis which will work in input and output format. The user will give an input in the form of a textual content and the the code will process every bit of it and generate the output accordingly. Output of the code will vary between 3 parameters that are positive, negative and neutral. 
-The output of the code solely depends on user's input. Let me address the elephant in the room, yes i know this is a very common project but i chose this project as my first ever project in college. 
-This project can be used to check sentiment of a tweet from X, it can be used to check emotion of a particular lyric snippet, paragraphs, single word and any other possible form of textual content. 
-Feel free to contribute and if you come up with any error or uncertainity in the code or in the output then you can raise an issue in the repository i'll try to resolve it and get back to you.
+
+Feel-flux is a **Sentiment Analysis** program written in **C++**. It reads positive and negative words from provided files and analyzes the sentiment of user input text, determining if the sentiment is **positive**, **negative**, or **neutral**.
+
+## Features
+- **Sentiment Analysis** based on positive and negative word lists.
+- Detects **negation words** to flip sentiment where appropriate.
+- Provides a **sentiment score** and **sentiment label** (Positive, Negative, or Neutral).
+
+## Installation
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/vignesh1507/Feel-flux.git
+   ```
+
+2. **Install a C++ compiler:**
+   Ensure you have a C++ compiler installed. You can use:
+   - **g++** for Linux/Windows (mingw)
+   - **clang** for macOS/Linux
+   - **MSVC** for Windows/macOS
+
+3. **Create or add positive and negative word files:**
+   The program requires text files containing positive and negative words.
+
+   - `positive words.txt`
+   - `negative words.txt`
+   - `neutral words.txt`
+
+## Compilation
+
+To compile the program, use the following commands:
+
+- **g++** (Linux/Windows):
+  ```bash
+  g++ -o feel_flux feel_flux.cpp
+  ```
+
+- **clang** (macOS/Linux):
+  ```bash
+  clang++ -o feel_flux feel_flux.cpp
+  ```
+
+- **MSVC** (Windows):
+  ```bash
+  cl feel_flux.cpp
+  ```
+
+## Usage
+
+Once compiled, you can run the program from the command line:
+
+```bash
+./feel_flux
+```
+
+### Input
+
+The program prompts you to input a paragraph or sentence for sentiment analysis:
+
+```bash
+Enter text for sentiment analysis (press Ctrl+D to end input):
+```
+
+Type in the text you want to analyze and press **Enter**.
+
+### Output
+
+The program will output the **sentiment score** and **sentiment label** (Positive, Negative, Neutral):
+
+```bash
+Sentiment Score: 3
+Sentiment Label: Positive
+```
+
+## File Structure
+
+```
+.
+├── feel_flux.cpp         # Main C++ source code
+├── positive words.txt    # File containing positive words
+├── negative words.txt    # File containing negative words
+├── neutral words.txt  
+└── README.md             # Project README file
+```
+
