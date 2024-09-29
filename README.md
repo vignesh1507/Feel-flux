@@ -1,9 +1,9 @@
 # Feel-flux
 
-Feel-flux is a **Sentiment Analysis** program written in **C++**. It reads positive and negative words from provided files and analyzes the sentiment of user input text, determining if the sentiment is **positive**, **negative**, or **neutral**.
+Feel-flux is a **Sentiment Analysis** program written in **C++**. It reads positive, negative & neutral words from provided files and analyzes the sentiment of user input text, determining if the sentiment is **positive**, **negative**, or **neutral**.
 
 ## Features
-- **Sentiment Analysis** based on positive and negative word lists.
+- **Sentiment Analysis** based on positive, negative and neutral word lists.
 - Detects **negation words** to flip sentiment where appropriate.
 - Provides a **sentiment score** and **sentiment label** (Positive, Negative, or Neutral).
 
