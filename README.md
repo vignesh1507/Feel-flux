@@ -39,12 +39,12 @@ To compile the program, use the following commands:
 
 - **clang** (macOS/Linux):
   ```bash
-  clang++ -o feel_flux feel_flux.cpp
+  clang++ -o Feel_flux main.cpp
   ```
 
 - **MSVC** (Windows):
   ```bash
-  cl feel_flux.cpp
+  cl main.cpp
   ```
 
 ## Usage
@@ -52,7 +52,7 @@ To compile the program, use the following commands:
 Once compiled, you can run the program from the command line:
 
 ```bash
-./feel_flux
+./Feel_flux
 ```
 
 ### Input
