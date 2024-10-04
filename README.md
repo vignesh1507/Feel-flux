@@ -34,7 +34,7 @@ To compile the program, use the following commands:
 
 - **g++** (Linux/Windows):
   ```bash
-  g++ -o feel_flux feel_flux.cpp
+  g++ -o Feel_flux main.cpp
   ```
 
 - **clang** (macOS/Linux):
