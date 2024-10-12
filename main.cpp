@@ -70,7 +70,7 @@ private:
         string word;
 
         while (iss >> word) {
-            // Remove punctuations (basic implementation)
+            // Remove punctuations 
             word.erase(remove_if(word.begin(), word.end(), ::ispunct), word.end());
 
             // Convert to lowercase before inserting
