@@ -10,17 +10,18 @@ Feel-flux is a **Sentiment Analysis** program written in **C++**. It reads posit
 ## Installation
 
 1. **Clone the repository:**
+
    ```bash
    git clone https://github.com/vignesh1507/Feel-flux.git
    ```
 
-2. **Install a C++ compiler:**
+3. **Install a C++ compiler:**
    Ensure you have a C++ compiler installed. You can use:
    - **g++** for Linux/Windows (mingw)
    - **clang** for macOS/Linux
    - **MSVC** for Windows/macOS
 
-3. **Create or add positive and negative word files:**
+4. **Create or add positive and negative word files:**
    The program requires text files containing positive, negative words, neutral words and stop words.
 
    - `positive words.txt`
