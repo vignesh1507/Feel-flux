@@ -8,7 +8,7 @@ The following is a set of guidelines for contributing to Feel-flux. These are mo
 
 ### Reporting Bugs
 
-This section guides you through submitting a bug report for Feel-flux. Following these guidelines helps maintainers and the community understand your report, reproduce the behavior, and find related reports.
+This section guides you through submitting a bug report for Feel-flux. Following these guidelines helps maintainers and the community understand your report, reproduce the behavior, and find related reports. 
 
 - **Ensure the bug was not already reported** by searching on GitHub under Issues.
 - If you're unable to find an open issue addressing the problem, open a new one. Be sure to include a **title and clear description**, as much relevant information as possible, and a **code sample** or an **executable test case** demonstrating the expected behavior that is not occurring.
