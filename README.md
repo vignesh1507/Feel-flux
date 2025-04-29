@@ -9,7 +9,7 @@ Feel-flux is a program written in **C++**. It reads positive, negative & neutral
 
 ## Installation
 
-1. **Clone the repository:** 
+1. **Clone the repository:**  
 
    ```bash
    git clone https://github.com/vignesh1507/Feel-flux.git
